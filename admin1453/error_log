@@ -1,0 +1,73 @@
+[29-Oct-2017 14:53:45 Europe/Bucharest] PHP Parse error:  syntax error, unexpected ')' in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.archive_activitati.php on line 171
+[29-Oct-2017 14:53:55 Europe/Bucharest] PHP Parse error:  syntax error, unexpected ')' in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.archive_activitati.php on line 171
+[29-Oct-2017 15:41:31 Europe/Bucharest] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.archive_activitati.php on line 171
+[12-Nov-2017 17:46:27 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '}' in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.App.php on line 328
+[14-Nov-2017 15:51:42 Europe/Bucharest] PHP Fatal error:  Call to a member function db_query() on a non-object in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.App.php on line 76
+[14-Nov-2017 15:51:45 Europe/Bucharest] PHP Fatal error:  Call to a member function db_query() on a non-object in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.App.php on line 76
+[14-Nov-2017 15:51:51 Europe/Bucharest] PHP Fatal error:  Call to a member function db_query() on a non-object in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.App.php on line 76
+[19-Nov-2017 16:05:26 Europe/Bucharest] PHP Warning:  Uncaught exception 'ErrorException' with message 'require() [<a href='function.require'>function.require</a>]: http:// wrapper is disabled in the server configuration by allow_url_include=0' in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/app_header.php:96
+Stack trace:
+#0 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/app_header.php(96): errorhandler->errorHandler(2, 'require() [<a h...', '/home/rbra3921/...', 96, Array)
+#1 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/app_header.php(96): require()
+#2 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.archive.php(734): include('/home/rbra3921/...')
+#3 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.App.php(158): archive->ShowList()
+#4 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.App.php(110): App->DisplayPanel()
+#5 /home/rbra3921/public_html/ca in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/app_header.php on line 96
+[19-Nov-2017 16:05:26 Europe/Bucharest] PHP Fatal error:  main() [<a href='function.require'>function.require</a>]: Failed opening required 'http://www.cazare-in-cheia.ro/admin/resources/help/hlp_about.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/app_header.php on line 96
+[19-Nov-2017 16:05:29 Europe/Bucharest] PHP Warning:  Uncaught exception 'ErrorException' with message 'require() [<a href='function.require'>function.require</a>]: http:// wrapper is disabled in the server configuration by allow_url_include=0' in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/app_header.php:96
+Stack trace:
+#0 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/app_header.php(96): errorhandler->errorHandler(2, 'require() [<a h...', '/home/rbra3921/...', 96, Array)
+#1 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/app_header.php(96): require()
+#2 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.archive.php(734): include('/home/rbra3921/...')
+#3 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.App.php(158): archive->ShowList()
+#4 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.App.php(110): App->DisplayPanel()
+#5 /home/rbra3921/public_html/ca in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/app_header.php on line 96
+[19-Nov-2017 16:05:29 Europe/Bucharest] PHP Fatal error:  main() [<a href='function.require'>function.require</a>]: Failed opening required 'http://www.cazare-in-cheia.ro/admin/resources/help/hlp_about.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/app_header.php on line 96
+[23-Nov-2017 17:40:30 Europe/Bucharest] PHP Fatal error:  Cannot access private property App::$user_have_support in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_support.php on line 31
+[23-Nov-2017 17:41:30 Europe/Bucharest] PHP Fatal error:  Cannot access protected property App::$user_have_support in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_support.php on line 31
+[24-Nov-2017 14:29:39 Europe/Bucharest] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(): http:// wrapper is disabled in the server configuration by allow_url_include=0' in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php:52
+Stack trace:
+#0 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php(52): errorhandler->errorHandler(2, 'require(): http...', '/home/rbra3921/...', 52, Array)
+#1 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php(52): require()
+#2 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.archive_help.php(24): include('/home/rbra3921/...')
+#3 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.archive_custom.php(44): archive_help->IncludeResources()
+#4 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.App.php(203): archive_custom->ShowPanel()
+#5 /home/rbra3921/public_html/cazare-in-cheia.ro/a in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php on line 52
+[24-Nov-2017 14:29:39 Europe/Bucharest] PHP Fatal error:  main(): Failed opening required 'http://www.cazare-in-cheia.ro/help/version_1_1/hlp_menu.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php on line 52
+[24-Nov-2017 14:34:22 Europe/Bucharest] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(..//home/rbra3921/public_html/cazare-in-cheia.ro/help/version_1_1/hlp_menu.php): failed to open stream: No such file or directory' in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php:52
+Stack trace:
+#0 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php(52): errorhandler->errorHandler(2, 'require(..//hom...', '/home/rbra3921/...', 52, Array)
+#1 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php(52): require()
+#2 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.archive_help.php(24): include('/home/rbra3921/...')
+#3 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.archive_custom.php(44): archive_help->IncludeResources()
+#4 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.App.php(203): archive_custom->ShowPanel()
+#5 in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php on line 52
+[24-Nov-2017 14:34:22 Europe/Bucharest] PHP Fatal error:  main(): Failed opening required '..//home/rbra3921/public_html/cazare-in-cheia.ro/help/version_1_1/hlp_menu.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php on line 52
+[24-Nov-2017 14:35:27 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '}' in /home/rbra3921/public_html/cazare-in-cheia.ro/help/version_1_1/hlp_menu.php on line 6
+[24-Nov-2017 14:39:31 Europe/Bucharest] PHP Fatal error:  Cannot access private property App::$hlpid in /home/rbra3921/public_html/cazare-in-cheia.ro/help/version_1_1/hlp_menu.php on line 2
+[24-Nov-2017 14:50:05 Europe/Bucharest] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/rbra3921/public_html/cazare-in-cheia.ro/help/version_1_1/2.php): failed to open stream: No such file or directory' in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php:92
+Stack trace:
+#0 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php(92): errorhandler->errorHandler(2, 'require(/home/r...', '/home/rbra3921/...', 92, Array)
+#1 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php(92): require()
+#2 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.archive_help.php(24): include('/home/rbra3921/...')
+#3 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.archive_custom.php(44): archive_help->IncludeResources()
+#4 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.App.php(203): archive_custom->ShowPanel()
+#5 /home/rbr in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php on line 92
+[24-Nov-2017 14:50:05 Europe/Bucharest] PHP Fatal error:  main(): Failed opening required '/home/rbra3921/public_html/cazare-in-cheia.ro/help/version_1_1/2.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php on line 92
+[24-Nov-2017 16:49:44 Europe/Bucharest] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/rbra3921/public_html/cazare-in-cheia.ro/help/version_1_1/2.php): failed to open stream: No such file or directory' in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php:92
+Stack trace:
+#0 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php(92): errorhandler->errorHandler(2, 'require(/home/r...', '/home/rbra3921/...', 92, Array)
+#1 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php(92): require()
+#2 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.archive_help.php(24): include('/home/rbra3921/...')
+#3 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.archive_custom.php(44): archive_help->IncludeResources()
+#4 /home/rbra3921/public_html/cazare-in-cheia.ro/admin/include/classes/class.App.php(203): archive_custom->ShowPanel()
+#5 /home/rbr in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php on line 92
+[24-Nov-2017 16:49:44 Europe/Bucharest] PHP Fatal error:  main(): Failed opening required '/home/rbra3921/public_html/cazare-in-cheia.ro/help/version_1_1/2.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/content/template/metronic_v4.7.5/admin_1/page_help.php on line 92
+[27-Nov-2017 08:56:45 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/rbra3921/aaida.easylaw.ro/admin1877/include/classes/class.tab_utilizator_setari.php on line 44
+[27-Nov-2017 16:08:36 Europe/Bucharest] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/rbra3921/aaida.easylaw.ro/admin1877/include/classes/class.archive_beneficiari.php on line 68
+[28-Nov-2017 11:33:48 Europe/Bucharest] PHP Fatal error:  Call to a member function ReturnAlertsClassFromType() on null in /home/rbra3921/aaida.easylaw.ro/admin1877/include/classes/class.archive.php on line 604
+[28-Nov-2017 11:34:02 Europe/Bucharest] PHP Fatal error:  Call to a member function ReturnAlertsClassFromType() on null in /home/rbra3921/aaida.easylaw.ro/admin1877/include/classes/class.archive.php on line 604
+[28-Nov-2017 15:11:51 Europe/Bucharest] PHP Fatal error:  Call to a member function ReturnAlertsClassFromType() on null in /home/rbra3921/aaida.easylaw.ro/admin1877/include/classes/class.archive.php on line 604
+[29-Nov-2017 08:45:41 Europe/Bucharest] PHP Fatal error:  Call to a member function db_query() on null in /home/rbra3921/aaida.easylaw.ro/admin1877/include/classes/class.archive_beneficiari.php on line 80
+[29-Nov-2017 10:54:34 Europe/Bucharest] PHP Parse error:  syntax error, unexpected ';' in /home/rbra3921/aaida.easylaw.ro/admin1877/include/classes/class.archive_incasari.php on line 97
+[18-Dec-2017 13:15:19 Europe/Bucharest] PHP Fatal error:  Class 'archive_subarticle' not found in /home/rbra3921/public_html/clienti/muzeu/admin1989/include/classes/class.archive.php(1066) : eval()'d code on line 1

@@ -1,0 +1,4 @@
+[29-Oct-2017 10:25:01 Europe/Bucharest] PHP Parse error:  syntax error, unexpected ')' in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/app/fullcalendar-3.5.1/php/events_json.php on line 71
+[29-Oct-2017 10:25:18 Europe/Bucharest] PHP Parse error:  syntax error, unexpected ')' in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/app/fullcalendar-3.5.1/php/events_json.php on line 71
+[31-Oct-2017 11:53:50 Europe/Bucharest] PHP Fatal error:  Class 'archive' not found in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/app/fullcalendar-3.5.1/php/events_json.php on line 6
+[31-Oct-2017 11:54:07 Europe/Bucharest] PHP Fatal error:  Class 'archive' not found in /home/rbra3921/public_html/cazare-in-cheia.ro/admin/app/fullcalendar-3.5.1/php/events_json.php on line 6

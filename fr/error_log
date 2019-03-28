@@ -1,0 +1,5 @@
+[17-Dec-2018 10:38:11 Europe/Bucharest] PHP Fatal error:  Call to a member function db_query() on null in /home2/traduzioniserviz/public_html/include/classes/class.AppMain.php on line 40
+[17-Dec-2018 10:38:11 Europe/Bucharest] PHP Fatal error:  Call to a member function db_query() on null in /home2/traduzioniserviz/public_html/include/classes/class.AppMain.php on line 40
+[17-Dec-2018 10:38:11 Europe/Bucharest] PHP Fatal error:  Call to a member function db_query() on null in /home2/traduzioniserviz/public_html/include/classes/class.AppMain.php on line 40
+[17-Dec-2018 10:40:29 Europe/Bucharest] PHP Fatal error:  Call to a member function db_query() on null in /home2/traduzioniserviz/public_html/include/classes/class.AppMain.php on line 40
+[17-Dec-2018 10:40:30 Europe/Bucharest] PHP Fatal error:  Call to a member function db_query() on null in /home2/traduzioniserviz/public_html/include/classes/class.AppMain.php on line 40

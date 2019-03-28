@@ -1,0 +1,34 @@
+Options +FollowSymlinks
+RewriteEngine on
+#RewriteRule ^.well-known - [L]
+
+#AddType application/x-httpd-php56 .php 
+#php_flag display_errors on
+
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+	
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]	
+
+  
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*)/$
+#Force Trailing slash
+RewriteRule ^((.*)[^/])$ $1/ [L,R=301]
+
+
+ErrorDocument 404 http://www.charity-sos.com/ro/pagina-nu-exista/
+RewriteRule ^pagina-nu-exista/$ index.php?pn=12 [L,B]
+
+RewriteRule ^contact/$ index.php?pn=13 [L,B]
+RewriteRule ^doneaza/$ index.php?pn=133 [L,B]
+RewriteRule ^thank-you/$ index.php?pn=1333 [L,B]
+RewriteRule ^cancel/$ index.php?pn=13333 [L,B]
+
+
+RewriteRule ^(.*)/(.*)/$ index.php?pn=22&categ=$1&idn=$2 [L,B]
+RewriteRule ^(.*)/$ index.php?pn=2&idn=$1 [L,B]

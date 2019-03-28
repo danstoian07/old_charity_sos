@@ -1,0 +1,58 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+#AddType application/x-httpd-php56 .php
+#php_flag display_errors on
+
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*)/$
+
+#Force Trailing slash
+RewriteRule ^((.*)[^/])$ $1/ [L,R=301]
+
+ErrorDocument 404 https://www.charity-sos.com/page-not-found/
+RewriteRule ^page-not-found/$ index.php?pn=12 [L,B]
+
+RewriteRule ^contact/$ index.php?pn=13 [L,B]
+RewriteRule ^donate-now/$ index.php?pn=133 [L,B]
+RewriteRule ^thank-you/$ index.php?pn=1333 [L,B]
+RewriteRule ^cancel/$ index.php?pn=13333 [L,B]
+
+
+RewriteRule ^(.*)/(.*)/$ index.php?pn=22&categ=$1&idn=$2 [L,B]
+RewriteRule ^(.*)/$ index.php?pn=2&idn=$1 [L,B]
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Images
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+
+  # Video
+  ExpiresByType video/mp4 "access plus 1 year"
+  ExpiresByType video/mpeg "access plus 1 year"
+
+  # CSS, JavaScript
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+
+  # Others
+  ExpiresByType application/pdf "access plus 1 month"
+  ExpiresByType application/x-shockwave-flash "access plus 1 month"
+</IfModule>
