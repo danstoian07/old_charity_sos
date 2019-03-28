@@ -131,6 +131,19 @@
             <div class="event-details">
 				<?=$this->current_page['description']?>
             </div>
+
+            <style>
+              .fluid-width-video-wrapper {
+                height: 440px !important;
+              }
+              iframe {
+                height: 420px !important;
+              }
+            </style>
+
+            <iframe src="https://www.youtube.com/embed/VCeWr8OFuEs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            
 			<p>Distribuie:</p>
 			<div class="addthis_inline_share_toolbox"></div>
           </div>
