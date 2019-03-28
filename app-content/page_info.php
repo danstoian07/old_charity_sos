@@ -131,6 +131,9 @@
             <div class="event-details">
 				<?=$this->current_page['description']?>
             </div>
+
+            <iframe src="https://www.youtube.com/embed/VCeWr8OFuEs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 			<p>Share:</p>
 			<div class="addthis_inline_share_toolbox"></div>
           </div>
@@ -166,7 +169,7 @@
 
     <section>
       <div class="container pt-0 pb-0">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/VCeWr8OFuEs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
       </div>
     </section>
     
