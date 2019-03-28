@@ -163,6 +163,12 @@
     </section>
 
     <!-- Section: Counselor & Upcoming Events -->
+
+    <section>
+      <div>
+        <h1>TEXTTEST</h1>
+      </div>
+    </section>
     
     <!-- Divider: Clients -->
     <section class="bg-theme-colored">
